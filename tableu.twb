@@ -1651,8 +1651,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98222' id='15' param='vert' type-v2='layout-flow' w='98666' x='667' y='889'>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='17' param='vert' type-v2='layout-flow' w='98666' x='667' y='889'>
                 <zone fixed-size='190' h='22000' id='6' is-fixed='true' name='Annual EV Sales Trend' w='36416' x='667' y='889'>
                   <layout-cache minheight='198' minwidth='170' type-h='scalable' type-w='scalable' />
                   <zone-style>
@@ -1855,8 +1855,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98074' id='18' param='vert' type-v2='layout-flow' w='98730' x='635' y='963'>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98074' id='20' param='vert' type-v2='layout-flow' w='98730' x='635' y='963'>
                 <zone fixed-size='188' h='24518' id='11' is-fixed='true' name='Average Driving Range by Vehicle Category' w='43011' x='635' y='963'>
                   <zone-style>
                     <format attr='border-color' value='#444444' />
@@ -1971,7 +1971,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Top 10 Manufacturers by Annual Sales'>
+    <window class='worksheet' maximized='true' name='Top 10 Manufacturers by Annual Sales'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2259,7 +2259,7 @@
       </cards>
       <simple-id uuid='{7A170765-A371-46ED-ACB2-BBE43FAE9633}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 2'>
+    <window class='dashboard' name='Dashboard 2'>
       <viewpoints>
         <viewpoint name='Annual EV Sales Trend'>
           <zoom type='entire-view' />
